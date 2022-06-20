@@ -44,21 +44,24 @@ export default function NavBar() {
                 <img src={logo} className={classes.logo}/> 
                 <img src={logoMobile} className={classes.logoMobile}/> 
                 <Typography variant="h6" className={classes.menuItem}>
-                   About
+                    About
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Blog
+                    Schedule
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Careers
+                    Roster
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Demos 
+                    Photos 
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Contact Us 
+                    Pay Dues 
                 </Typography>
-                <CustomBtn txt="Trial Our Product"/>
+                <Typography variant="h6" className={classes.menuItem}>
+                    Dontate 
+                </Typography>
+                <CustomBtn txt="Interest Form"/>
             </Toolbar>
     )
 }
